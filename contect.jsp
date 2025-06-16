@@ -10,5 +10,6 @@
     <a href="index.jsp">home</a>
     <a href="contect.jsp">contect</a>
     <h1>this is contect page</h1>
+    <p>This is final addition</p>
 </body>
 </html>
