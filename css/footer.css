@@ -13,9 +13,7 @@ footer{
     display: flex; 
     gap: 10%;
 
-}
-
-   
+}   
 .footer-main .col_1 {
     width: 23%;  
     min-width: 250px;
@@ -23,7 +21,6 @@ footer{
     padding: 10px;
     box-sizing: border-box;
 }
-
 .footer-main .col_2{
     
     width: 12%;

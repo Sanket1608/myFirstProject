@@ -258,7 +258,7 @@
                     <h2 class="product-brand">PINKWOOD</h2>
                     <p class="product-short-details">Women Stylish fancy and Confort Treding heels</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
+                    <del class="actual-price">$40</del>
                 </div>
             </div>
 
@@ -272,7 +272,7 @@
                     <h2 class="product-brand">ID-116</h2>
                     <p class="product-short-details">Smartwatch fashion</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
+                    <del class="actual-price">$40</del>
                 </div>
             </div>
             
@@ -286,7 +286,7 @@
                     <h2 class="product-brand">Comfabie</h2>
                     <p class="product-short-details">Falma Women's Leather Lates bag</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
+                    <del class="actual-price">$40</del>
                 </div>
             </div>
 
@@ -300,7 +300,7 @@
                     <h2 class="product-brand">Polo Ralph</h2>
                     <p class="product-short-details">Polo Ralph evening party formal</p>
                     <span class="price">$6</span>
-                    <span class="actual-price">$12</span>
+                    <del class="actual-price">$12</del>
                 </div>
             </div>
 
@@ -314,7 +314,7 @@
                     <h2 class="product-brand">Adidas</h2>
                     <p class="product-short-details">Men's Casual Shoes 2023</p>
                     <span class="price">$10</span>
-                    <span class="actual-price">$20</span>
+                    <del class="actual-price">$20</del>
                 </div>
             </div>
 
@@ -328,7 +328,7 @@
                     <h2 class="product-brand">Longines</h2>
                     <p class="product-short-details">Women's Karli Fashion</p>
                     <span class="price">$8</span>
-                    <span class="actual-price">$12</span>
+                    <del class="actual-price">$12</del>
                 </div>
             </div>
 
@@ -342,7 +342,7 @@
                     <h2 class="product-brand">PUMA</h2>
                     <p class="product-short-details">PUMA-Laptop Backpack</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
+                    <del class="actual-price">$40</del>
                 </div>
             </div>
 
@@ -366,7 +366,7 @@
                     <h2 class="product-brand">PUMA</h2>
                     <p class="product-short-details">PUMA-Laptop Backpack</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
+                    <del class="actual-price">$40</del>
                 </div>
             </div>
 
@@ -382,7 +382,7 @@
                     <h2 class="product-brand">PINKWOOD</h2>
                     <p class="product-short-details">Women Stylish fancy and Confort Treding heels</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
+                    <del class="actual-price">$40</del>
                 </div>
             </div>
 
@@ -397,7 +397,7 @@
                     <h2 class="product-brand">Comfabie</h2>
                     <p class="product-short-details">Falma Women's Leather Lates bag</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
+                    <del class="actual-price">$40</del>
                 </div>
             </div>
 
@@ -411,7 +411,7 @@
                     <h2 class="product-brand">PUMA</h2>
                     <p class="product-short-details">Puma Men Crater ldp peacoat-shocking orange low boot</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$30</span>
+                    <del class="actual-price">$30</del>
                 </div>
             </div>
 
@@ -425,7 +425,7 @@
                     <h2 class="product-brand">Polo Ralph</h2>
                     <p class="product-short-details">Polo Ralph evening party formal</p>
                     <span class="price">$6</span>
-                    <span class="actual-price">$12</span>
+                    <del class="actual-price">$12</del>
                 </div>
             </div>
 
@@ -439,7 +439,7 @@
                     <h2 class="product-brand">Adidas</h2>
                     <p class="product-short-details">Men's Casual Shoes 2023</p>
                     <span class="price">$10</span>
-                    <span class="actual-price">$20</span>
+                    <del class="actual-price">$20</del>
                 </div>
             </div>
 
@@ -454,7 +454,7 @@
                     <h2 class="product-brand">ID-116</h2>
                     <p class="product-short-details">Smartwatch fashion</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
+                    <del class="actual-price">$40</del>
                 </div>
             </div>
 
@@ -468,7 +468,7 @@
                     <h2 class="product-brand">Longines</h2>
                     <p class="product-short-details">Women's Karli Fashion</p>
                     <span class="price">$8</span>
-                    <span class="actual-price">$12</span>
+                    <del class="actual-price">$12</del>
                 </div>
             </div>
 
