@@ -1,152 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.navbar{
-    
-    height: 160px;
-    width: 100%;
-    display: flex;
-    position: sticky;
-    top: 0;
-    left: 0;
-
-}
-.maindiv{
-    height: 100px;
-    width: 100%;
-    display: flex;
-}
-.logo{
-   
-    height: 70px;
-    width: 200px;
-    margin: 15px 200px;
-    display: flex;
-
-}
-.inerlogo{
-    height: 100%;
-    width: 70px;
-   
-}
+@import 'nav.css';
+@import 'footer.css';
 
 
-.logoitem {
-    height: 100%;
-    width: 100%;
-} 
-.logotitle{
-  display: flex;
-  justify-content: center;
-  align-items: center;     
-  height: 100%;           
-  text-align: center;
-  padding-left: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: xx-large;
-  padding: 10px;
-  padding-top: 30px;
+
+.bgslider { 
+	overflow: hidden; 
 }
 
-.search{
-    display: flex;
-    height: 20px;
-    align-items: center;
-    margin: 40px 300px; 
-    position: relative;   
-}
-.search a{
-    color: #000;
-    margin-bottom: 20px;
-}
-.search input{
-    position: absolute;
-    padding: 10px;
-    width: 300px;
-}
-.sbtn{
-    position: absolute;
-    left: 300px;
-    background-color: rgb(8, 0, 0);
-    color: rgb(253, 254, 253);
-    border-radius: 0px 6px 6px 0px;
-    padding: 11px;
-    width: 80px;
-    text-align: center; 
-    gap: 1px;
-    
-}
-.search1{
-    position: absolute;
-    left: 270px;
-}
-.other-logo{
-    width: 150px;
-    align-items: center;
-    justify-content: center;
-    position: relative; 
-    left: 100px;
-    display: flex;
-    gap: 15px;
-
-}
-.other-logo a{
-    text-decoration: none;
-    color: #000;
+.bgslider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
 }
 
-.main2{
-    display: flex;
-    width: fit-content;
-    gap: 40px;
-    margin: auto;
-   
+.bgslider figure img { 
+	width: 20%; 
+	float: left; 
+	height:100vh;
 }
 
-.main2 a {
-    color:rgb(3, 0, 0);
-    font-size: 2rem;
-    font-weight: 600;
-    transform: color 0.1s;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.3s;
-    background-image: linear-gradient(to right, blue 100%, blue 100%);
-    background-repeat: no-repeat;
-    background-size: 0% 4px; /* starts with 0 width */
-    background-position: left bottom;
-    transition: background-size 0.4s ease;
-    border-radius: 9px;
-}
-.main2 a:hover{
-    background-size: 100% 4px;
-}
-.carousel-inner{
-    width: 100%;       
-    overflow: hidden;       
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-    object-fit: contain; 
-    animation: slidy 3s infinite ;
-    
-}
-.carousel-inner img{
-    height: 800px;
-    width: 100%;
-    object-fit: fill;
-    display: block;
-    
-    
-}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+
+  
+
 /* product */
 
 .product{
     position: relative;
     overflow: hidden;
     padding: 20px 0;
-
 }
 
 .product-category{
@@ -171,10 +67,8 @@
 .product-card{
     flex: 0 0 auto;
     width: 250px;
-    height:460px;
+    height: 450px;
     margin-right: 40px;
-    border: 1px solid rgb(185, 182, 182);
-    border-radius: 5px;
 }
 
 .product-image{
@@ -182,7 +76,6 @@
     width: 100%;
     height: 350px;
     overflow: hidden;
-    object-fit: fill;
 }
 
 .product-thumb{
@@ -201,6 +94,7 @@
     top: 10px;
     text-transform: capitalize;
 }
+
 .card-btn{
     position: absolute;
     bottom: 10px;
@@ -211,36 +105,32 @@
     text-transform: capitalize;
     border: none;
     outline: none;
-    background: #843939;
-    border-radius: 3px;
+    background: #fff;
+    border-radius: 5px;
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
 }
+
 .product-card:hover .card-btn{
     opacity: 1;
 }
+
+.card-btn:hover{
+    background: #efefef;
+}
+
 .product-info{
     width: 100%;
-    height: 20px;
-    
-    padding-left:10px ;
-    
-}
-.price{
-    font-weight: 900;
-    font-size: 20px;
-    padding-top: 20px;
-
-    
-}
-.actual-price{
-    margin-left: 20px;
-    opacity: 0.5;
-    margin-top: 10px;
+    height: 100px;
+    padding-top: 10px;
 }
 
-.product-short-details{
+.product-brand{
+    text-transform: uppercase;
+}
+
+.product-short-des{
     width: 100%;
     height: 20px;
     line-height: 20px;
@@ -249,6 +139,18 @@
     text-transform: capitalize;
     margin: 5px 0;
 }
+
+.price{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.actual-price{
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
 .pre-btn, .nxt-btn{
     border: none;
     width: 10vw;
@@ -262,6 +164,7 @@
     cursor: pointer;
     z-index: 8;
 }
+
 .pre-btn{
     left: 0;
     transform: rotate(180deg);
@@ -284,32 +187,44 @@
 .collection-container{
     width: 100%;
     display: grid;
-    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
 }
+
 .collection{
     position: relative;
+}
 
-}
-.collection:nth-child(3){
-    grid-column: span 2;
-    margin-bottom: 10px;
-}
 .collection img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+    padding: 20px;
 }
+
 .collection p{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #e5df2b;
+    color: #edf5ec;
     font-size: 50px;
     font-weight: bold;
     text-transform: capitalize;
+}
+
+.collection:nth-child(3){
+    grid-column: span 2;
+    margin-bottom: 10px;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
 }
 #newsletter{
     display: flex;
@@ -317,11 +232,10 @@
     flex-wrap: wrap;
     align-items: center;
     background-image: url(/img/banner.jpg);
-    background-size: 70%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 100% 10%;
+    background-position: 100% 30%;
     background-color: #041e42;
-    padding-right: 100px;
 }
 
 #newsletter h4{
@@ -356,7 +270,6 @@
     outline: none;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-
 }
 
 #newsletter button{
@@ -365,15 +278,6 @@
     white-space: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-
-}
-.newstext{
-    padding-left: 100px;
-    margin: 40px 0px;
-}
-.normal{
-    padding: 10px;
-    height: 52px;
 }
 
 

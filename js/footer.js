@@ -1,23 +1,15 @@
-const createfooter=() =>{
-    let footer=document.querySelector('footer');
+const createFooter = () => {
+    let footer = document.querySelector('footer');
 
-    footer.innerHTML =`
-    <div class="footer-main">
-    <div class="col_1">
-        <div class="logo">
-            <div class="inerlogo">
-                <img src="img/82e97ae4-5c56-4f97-bb3f-531a6d4c7032.png" alt="logo img" class="logoitem"/>
-            </div>
-            <div class="logotitle">
-                <p>sanket.in</p>
-            </div>
-        </div>
-        <h4>contact:</h4>
-        <p><strong>Address:</strong>150ft ring road, Rajkot-360004, India.</p>
+    footer.innerHTML = `
+    <div class="col">
+        <img src="img/logo.jpg" class="logo" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong>Suvranbhumi, Rajkot-360004, India.</p>
         <p><strong>Phone:</strong>+91 1800 000 001 / +91 1800 000 002</p>
         <p><strong>Hours:</strong> 10:00 - 18:00, Mon -Sat</p>
-
-        <span>Follow Us:</span>
+    
+        <span>Follow Us</span>
         <div class="follow">
             
             <ul class="socials">
@@ -27,10 +19,10 @@ const createfooter=() =>{
                 <li><a href="404.html"><ion-icon name="logo-instagram"></ion-icon></a></li>
                 <li><a href="404.html"><ion-icon name="logo-tumblr"></ion-icon></a></li>
             </ul>
-        </div>  
-    </div> 
+        </div>
+    </div>
     
-    <div class="col_2">
+        <div class="col">
             <h4>About</h4>
             <a href="#">About us</a>
             <a href="#">Delivery Information</a>
@@ -38,17 +30,17 @@ const createfooter=() =>{
             <a href="#">Terms & Condition</a>
             <a href="#">Contact us</a>
         </div>
-
-        <div class="col_3">
+    
+        <div class="col">
             <h4>My About</h4>
             <a href="#">Sign In</a>
             <a href="#">View Cart</a>
             <a href="#">My Cart</a>
             <a href="#">Track My Order</a>
             <a href="#">Help</a>
-        </div> 
-
-        <div class="col_4">
+        </div>
+    
+        <div class="col install">
             <h4>Install App</h4>
             <p>From App Store or Google Play</p>
             <div class="row">
@@ -56,10 +48,14 @@ const createfooter=() =>{
                 <img src="img/play.jpg" alt="" width="150px" height="60px">
             </div>
             <p>Secured Payment Gateways</p>
-            <img src="img/pay.jpg" alt="" width="400px" height="60px">
+            <img src="img/pay.jpg" alt="" width="300px" height="60px">
         </div>
-
-    </div>
-    `
+    
+        <div class="copyright">
+            <p>@ 2020, eshop E-commerce Website</p>
+        </div>
+    `;
 }
-createfooter();
+
+
+createFooter();

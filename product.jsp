@@ -4,169 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eshop</title>
+    <title>eshop-product</title>
 
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/footer.css"> 
-
+    <link rel="stylesheet" href="css/product.css">
 
 </head>
-
 <body>
+
     <nav class="navbar"></nav>
 
-    <!--Header Section=============================================================-->
-    <header class="hero-section">
-
-        <div class="bgslider">
-            <figure>
-                <img src="https://wallpapers.com/images/hd/fashion-items-on-clothes-rack-xyf4p75jjx4bz84z.jpg" alt="Slider">
-                <img src="https://img.freepik.com/premium-photo/interior-brand-new-fashion-clothing-store_652667-137.jpg?w=2000" alt="Slider">
-                <img src="https://i.redd.it/tq7e1klto3061.jpg" alt="Slider">
-            </figure>
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="img/product image 1.jpg" class="active" alt="">
+                <img src="img/product image 2.jpg" alt="">
+                <img src="img/product image 3.jpg" alt="">
+                <img src="img/product image 4.jpg" alt="">
+            </div>
         </div>
-    
-    </header>
+        <div class="details">
+            <h2 class="product-brand">BISHOP COTTEN</h2>
+            <p class="product-short-des">Men's Printed Cotton Short Sleeves Round Neck T-Shirt</p>
+            <span class="product-discount">- 77% </span>
+            <span class="product-price">&#8377 299/-</span>
+            <br>
+            <span class="product-actual-price">M.R.P.:&#8377 1,299</span>
 
-    <!--Card Container===========================================================-->
-    <section class="product">
-        <h2 class="product-category">best selling</h2>
-        <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
-        <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
-        <div class="product-container">
+            <p class="product-sub-heading">select size :</p>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card1.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">NNNOW</h2>
-                    <p class="product-short-des">Women Long Kurti</p>
-                    <span class="price">$10</span>
-                    <span class="actual-price">$20</span>
-                </div>
-            </div>
+            <input type="radio" name="size" value="s" checked hidden id="s-size">
+            <label for="s-size" class="size-radio-btn check">s</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">m</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radio-btn">l</label>
+            <input type="radio" name="size" value="s" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">xl</label>
+          
 
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card2.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">NIKE</h2>
-                    <p class="product-short-des">Men Brand Logo Printed T-shirt</p>
-                    <span class="price">$15</span>
-                    <span class="actual-price">$30</span>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card3.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">AKS</h2>
-                    <p class="product-short-des">Women Professional Dress</p>
-                    <span class="price">$15</span>
-                    <span class="actual-price">$30</span>
-                </div>
-            </div>
-            
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">20% off</span>
-                    <img src="img/card4.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">H&M</h2>
-                    <p class="product-short-des">Men Black Regualar Jeans</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$30</span>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">20% off</span>
-                    <img src="img/card5.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Jompers</h2>
-                    <p class="product-short-des">Men Kurtas</p>
-                    <span class="price">$12</span>
-                    <span class="actual-price">$20</span>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card6.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Kalin</h2>
-                    <p class="product-short-des">Summer girl t-shirt</p>
-                    <span class="price">$5</span>
-                    <span class="actual-price">$10</span>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">20% off</span>
-                    <img src="img/card7.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">S&N</h2>
-                    <p class="product-short-des">Simple men t-shrits</p>
-                    <span class="price">$6</span>
-                    <span class="actual-price">$10</span>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="img/card8.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">HIGHLANDER</h2>
-                    <p class="product-short-des">Men slim fit tourcer</p>
-                    <span class="price">$7</span>
-                    <span class="actual-price">$14</span>
-                </div>
-            </div>
-
+            <a href="addtocart"><button class="btn cart-btn">add to cart</button></a>
+            <button class="btn">add to whislist</button>
 
         </div>
+
     </section>
 
-    <!--Collection =============================================================-->
-    <section class="collection-container">
-        <a href="#" class="collection">
-            <img src="img/women-collection.jpg" alt="">
-            <p class="collection-title">women <br> apparels</p>
-        </a>
-
-        <a href="#" class="collection">
-            <img src="img/men-collection.jpg" alt="">
-            <p class="collection-title">men <br> apparels</p>
-        </a>
-
-        <a href="#" class="collection">
-            <img src="img/accessories-collection.jpg" alt="">
-            <p class="collection-title">accessories</p>
-        </a>
+    <section class="detail-des">
+        <h2 class="heading">description</h2>
+        <ul type="dark-circle" class="des">
+            <li>Care Instructions: Machine Wash</li>
+            <li>Fit Type: Regular Fit</li>
+            <li>Pattern: Printed</li>
+            <li>Neck: Round Neck</li>
+            <li>Sleeves : Short Sleeves</li>
+            <li>Wear : Casual Wear</li>
+            <li>Wash Care : Ragular Machine Wash</li>
+        </ul>
     </section>
 
     <!--Card Container===========================================================-->
@@ -291,7 +185,7 @@
         </div>
     </section>
 
-     <!--Card Container===========================================================-->
+    <!--Card Container===========================================================-->
      <section class="product">
         <h2 class="product-category">best selling</h2>
         <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
@@ -300,19 +194,17 @@
 
             <div class="product-card">
                 <div class="product-image">
-                    <span class="discount-tag">50%</span>
-                    <img src="img/card16.jpg" class="product-thumb" alt="">
+                    <span class="discount-tag">20%</span>
+                    <img src="img/card9.jpg" class="product-thumb" alt="">
                     <button class="card-btn">add to wishlist</button>
                 </div>
                 <div class="product-info">
                     <h2 class="product-brand">PUMA</h2>
-                    <p class="product-short-des">PUMA-Laptop Backpack</p>
+                    <p class="product-short-des">Puma Men Crater ldp peacoat-shocking orange low boot</p>
                     <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
+                    <span class="actual-price">$30</span>
                 </div>
             </div>
-
-            
 
             <div class="product-card">
                 <div class="product-image">
@@ -328,6 +220,19 @@
                 </div>
             </div>
 
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50%</span>
+                    <img src="img/card11.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">ID-116</h2>
+                    <p class="product-short-des">Smartwatch fashion</p>
+                    <span class="price">$20</span>
+                    <span class="actual-price">$40</span>
+                </div>
+            </div>
             
             <div class="product-card">
                 <div class="product-image">
@@ -340,20 +245,6 @@
                     <p class="product-short-des">Falma Women's Leather Lates bag</p>
                     <span class="price">$20</span>
                     <span class="actual-price">$40</span>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">20%</span>
-                    <img src="img/card9.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">PUMA</h2>
-                    <p class="product-short-des">Puma Men Crater ldp peacoat-shocking orange low boot</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$30</span>
                 </div>
             </div>
 
@@ -385,21 +276,6 @@
                 </div>
             </div>
 
-            
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50%</span>
-                    <img src="img/card11.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">ID-116</h2>
-                    <p class="product-short-des">Smartwatch fashion</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
-                </div>
-            </div>
-
             <div class="product-card">
                 <div class="product-image">
                     <span class="discount-tag">30%</span>
@@ -414,36 +290,32 @@
                 </div>
             </div>
 
-            
-
-        </div>
-    </section>
-
-    <section id="newsletter" class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sing Up For Newsletters</h4>
-            <p>Get Em-mail updates about our latest shop and <span>special offers.</span></p>
-        </div>
-        <div>
-            <div class="form">
-                <input type="email" placeholder="Your email address">
-                <button class="normal">Sing Up</button>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50%</span>
+                    <img src="img/card16.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">PUMA</h2>
+                    <p class="product-short-des">PUMA-Laptop Backpack</p>
+                    <span class="price">$20</span>
+                    <span class="actual-price">$40</span>
+                </div>
             </div>
+
         </div>
     </section>
 
-    <!--Footer section===========================================================-->
-    <footer>
-    </footer>
+    <footer></footer>
 
-
-    <!--javascript link===========================================================-->
     <script src="js/nav.js"></script>
-    <script src="js/footer.js"></script>  
     <script src="js/home.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/footer.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>  
+    
+</body>
 </html>
